@@ -10,7 +10,7 @@ router.post('/contact', (req, res) => {
 
   console.log(`Received message from ${name} (${email}): ${message}`);
 
-  res.send(`<h2>Thank you, ${name}! Your message has been received.</h2>`);
+  res.send(`<h2>Thank you, ${name}! Your message has been received. Just kidding it's only displayed here there's nowhere to store the data</h2>`);
 });
 
 module.exports = router;
